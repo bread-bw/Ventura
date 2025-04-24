@@ -1,0 +1,23 @@
+type: CoreBlock
+name: Core: Xenon
+description: An essential part of any base.First tier core that stores an intermediate amount of items.
+requirements: [
+  01a-01-item-resnium/1350
+  01a-03-item-irimuth/950
+]
+isFirstTier: true
+size: 3
+squareSprite: false
+alwaysUnlocked: true
+unitType: 05e-01-procyon
+health: 1750
+armor: 1
+itemCapacity: 5450
+unitCapModifier: 12
+category: effect
+research: {
+  planet: ventura
+  root: true
+  name: Ventura
+  requiresUnlock: false
+}

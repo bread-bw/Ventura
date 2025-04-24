@@ -1,0 +1,9 @@
+name: Irimuth
+description: "A prominent charged plastic used in low tier building."
+hardness: 0.4
+cost: 0.3
+charge: 0.4
+alwaysUnlocked: false
+color: 733434
+research: 01a-02-item-zirmium
+hiddenOnPlanets: [serpulo, erekir]

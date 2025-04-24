@@ -1,0 +1,8 @@
+name: Resmium
+description: "A metallic,brittle material used in low tier building."
+hardness: 0.7
+cost: 0.3
+alwaysUnlocked: true
+color: 7F7980
+research: 04d-01-core-xenox
+hiddenOnPlanets: [serpulo, erekir]

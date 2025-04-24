@@ -1,0 +1,9 @@
+name: Zirmium
+description: "A quite flammable and weak material used in combustion or related activities."
+hardness:0.1
+cost: 0.3
+flammability: 1.5
+alwaysUnlocked: false
+color: 3A4D3C
+research: 01a-01-item-resmium
+hiddenOnPlanets: [serpulo, erekir]

@@ -1,0 +1,23 @@
+type: HeatProducer
+name: Zirmium Heater
+description: Ignites Zirmium to create heat for further production standards.
+size: 2
+heatOutput: 2.25
+craftTime: 45
+squareSprite: false
+consumes: {
+  items: [
+    01a-02-item-zirmium/1
+  ]
+}
+rotate: false
+ambientSound: smelter
+ambientSoundVolume: 0.08
+category: crafting
+research: 04d-01-core-xenox
+requirements: [
+  01a-01-item-resnium/25
+]
+researchCost: [
+    01a-01-item-resnium/65
+]

@@ -1,0 +1,26 @@
+name: Resnium Drill
+description: First tier of drilling technology.Extracts items at a slow but steady rate.
+type: Drill
+hasLiquids: false
+size: 2
+itemCapacity: 15
+tier: 1
+drillTime: 325
+drawMineItem: true
+liquidBoostIntensity: 0.25
+requirements: [
+  01a-01-item-resnium/5
+]
+category: production
+research: {
+  parent: 04d-01-core-xenox
+  objectives: [
+    {
+    type: OnSector
+    preset: pioneer
+    }
+  ]
+}
+researchCost: [
+    01a-01-item-resnium/30
+]
