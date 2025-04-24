@@ -1,0 +1,48 @@
+type: tank
+name: Lumera
+description: A medium pace, decently strong tier one tank unit.Great for steady, grouped attacks.
+hitSize: 8
+treadPullOffset: 3
+omniMovement: false
+faceTarget: false
+outlineColor: 44413c
+speed: 0.9
+rotateSpeed: 4
+health: 295
+armor: 1
+itemCapacity: 0
+hitSize: 13
+treadRects: [
+  {
+    x: 9
+    y: -26
+    width: 18
+    height: 48
+  }
+]
+weapons: [
+  {
+    x: 0
+    y: 1
+    name: lumera-weapon
+    reload: 75
+    rotate: true
+    mirror: false
+    shoot: {
+      type: ShootSpread
+      shots: 4
+      spread: 4
+    }
+	shootSound: shoot-big
+    bullet: {
+      type: BasicBulletType
+      speed: 4
+	  lifetime: 35
+	  height: 5
+      width: 5
+      damage: 16
+	}
+  }
+]
+research: 11k-01-tank-assembly-plant
+researchCostMultiplier: 1.2

@@ -1,0 +1,27 @@
+type: ContinuousTurret
+name: Argon
+description: Melts down metalic materials into a highly accurate molten jets to damage enemies.
+size: 1
+squareSprite: false
+inaccuracy: 0
+consume: [01a-01-item-resnium/1]
+range: 145
+sprite: [point-laser-ven]
+shootY: 1
+shootType: {
+    type: PointLaserBulletType
+    damage: 15.5  
+	length: 145
+}  
+category: turret
+research: {
+  parent: 04d-01-core-xenox
+  requirements: [
+    01a-01-item-resnium/125
+	01a-03-item-irimuth/45
+  ]
+}
+requirements: [
+  01a-01-item-resnium/35
+  01a-03-item-irimuth/10
+]

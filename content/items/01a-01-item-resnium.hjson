@@ -4,5 +4,5 @@ hardness: 0.7
 cost: 0.3
 alwaysUnlocked: true
 color: 7F7980
-research: 04d-01-core-xenox
+research: 04d-01-core-xenon
 hiddenOnPlanets: [serpulo, erekir]

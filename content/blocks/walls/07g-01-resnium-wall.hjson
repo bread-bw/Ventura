@@ -1,0 +1,17 @@
+type: Wall
+name: Resnium Wall
+description: A wall made of resnium.
+size: 1
+health: 300
+squareSprite: false
+requirements: [
+  01a-01-item-resnium/5
+]
+research: {
+  parent: 04d-01-core-xenon
+  requirements: [
+    01a-01-item-resnium/225
+  ]
+}
+
+category: defense

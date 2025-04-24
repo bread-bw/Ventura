@@ -5,5 +5,5 @@ cost: 0.3
 flammability: 1.5
 alwaysUnlocked: false
 color: 3A4D3C
-research: 01a-01-item-resmium
+research: 01a-01-item-resnium
 hiddenOnPlanets: [serpulo, erekir]

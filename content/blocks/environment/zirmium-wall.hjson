@@ -1,0 +1,6 @@
+type: StaticWall
+name: Zirmium Wall
+description: "Still remains of a flammable material."
+attributes: {
+  zirmium: 1
+}

@@ -1,0 +1,14 @@
+type: Duct
+name: Transport Shaft
+description: A shaft that uses air pressure to transport items to designated areas.
+category: distribution
+alwaysUnlocked: true
+research: 04d-01-core-xenon
+researchCost: [
+  01a-01-item-resnium/10
+]
+speed: 12
+health: 25
+requirements: [
+  01a-01-item-resnium/1
+]

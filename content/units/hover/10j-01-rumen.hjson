@@ -1,0 +1,52 @@
+type: mech
+name: Rumen
+description: A quick, speedy hover unit best used for smaller attacks/support.
+hovering: true
+hoverable: true
+shadowElevation: 0.1
+mechFrontSway: 0
+mechSideSway: 0
+mechStride: 0
+drag: 0.08
+outlineColor: 44413c
+speed: 1.5
+rotateSpeed: 6
+accel: 0.123
+groundLayer: 85
+health: 210
+armor: 1
+hitSize: 6
+canDrown: false
+researchCostMultiplier: 1.5
+research: 11k-02-hover-assembly-plant
+engines: [
+  {
+    x: 0
+    y: -6.6
+    radius: 1.5
+  }
+]
+itemCapacity: 0
+useEngineElevation: false
+lowAltitude: false
+weapons: [
+  {
+    x: 2.4
+    y: 1
+    mirror: true
+    alternate: true
+    reload: 15
+    rotate: false
+    shootSound: missile
+    bullet: {
+      type: FlakBulletType
+      speed: 4
+	  lifetime: 45
+	  damage: 12
+      splashDamage: 34
+	  splashDamageRadius: 22
+	  width: 6
+      height: 6
+    }
+  }
+]

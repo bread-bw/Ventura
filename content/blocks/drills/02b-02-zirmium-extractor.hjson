@@ -1,0 +1,21 @@
+type: WallCrafter
+name: Zirmium Extractor
+description: Extracts . 
+size: 2
+category: production
+research: 04d-01-core-xenox
+requirements: [
+  01a-01-item-resnium/25
+]
+drillTime: 235
+output: 01a-02-item-zirmium
+attribute: zirmium
+ambientSound: drill
+ambientSoundVolume: 0.08
+alwaysUnlocked: false
+squareSprite: false
+research: 02b-01-resnium-drill
+researchCost: [
+  01a-01-item-resnium/40
+]
+

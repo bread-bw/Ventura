@@ -14,10 +14,12 @@ rotate: false
 ambientSound: smelter
 ambientSoundVolume: 0.08
 category: crafting
-research: 04d-01-core-xenox
+research: {
+  parent: 04d-01-core-xenon
+  requirements: [
+    01a-01-item-resnium/65
+  ]
+}
 requirements: [
   01a-01-item-resnium/25
-]
-researchCost: [
-    01a-01-item-resnium/65
 ]

@@ -10,15 +10,15 @@ squareSprite: false
 craftTime: 195
 consumes: {
   items: [
-    01a-01-item-resmium/2  
+    01a-01-item-resnium/2  
     01a-02-item-zirmium/1
   ]
 }
-outputItem: 01a-3-item-irimuth/1
+outputItem: 01a-03-item-irimuth/1
 category: crafting
 research: 03c-01-zirmium-heater
 requirements: [
-  01a-01-item-resmium/55
+  01a-01-item-resnium/55
 ]
 researchCost: [
     01a-01-item-resnium/85

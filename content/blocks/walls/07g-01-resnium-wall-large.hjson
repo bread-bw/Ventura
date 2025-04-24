@@ -1,0 +1,14 @@
+type: Wall
+name: Large Resnium Wall
+description: An upsized resnium wall.
+size: 2
+health: 1200
+category: defense
+squareSprite: false
+research: 07g-01-resnium-wall
+requirements: [
+  01a-01-item-resnium/20
+] 
+researchCost: [
+  01a-01-item-resnium/55
+]

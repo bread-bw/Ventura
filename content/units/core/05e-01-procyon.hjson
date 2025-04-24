@@ -1,13 +1,13 @@
 type: legs
 legCount: 5
-legLength: 5
-legSpeed: 0.45
+legLength: 8
+legSpeed: 0.24
 legForwardScl: 0.43
 legMoveSpace: 1
 hovering: true
 groundLayer: 60
 name: Procyon
-description: Defends the Xenox core. Builds structures and mines ores.
+description: Defends the Xenon core. Builds structures and mines ores.
 health: 155
 armor: 2
 mineFloor: true
@@ -24,10 +24,10 @@ alwaysUnlocked: true
 outlineColor: 42413e
 weapons: [
   {
-    x: -6.2
+    x: -5
     y: -1
     mirror: false
-    name: pioneer-weapon-l
+    name: procyon-weapon-l
     continuous: true
     alwaysContinuous: true
     ejectEffect: none
@@ -53,10 +53,10 @@ weapons: [
     }
   }
   {
-    x: 6.2
+    x: 5
     y: -1
     mirror: false
-    name: pioneer-weapon-r
+    name: procyon-weapon-r
     ejectEffect: none
     shootSound: none
     shootSound: none
@@ -64,11 +64,13 @@ weapons: [
     reload: 65
 	bullet: {
       type: MissileBulletType
-      length: 4
-      width: 1
-      damage: 31
-      splashDamage: 12
-	  splashDamageTiles: 3
+      length: 7
+      width: 7
+      speed: 3
+	  lifetime: 45
+	  damage: 45
+      splashDamage: 34
+	  splashDamageTiles: 12
 	  buildingDamageMultiplier: 0.01
       hitEffect: none
       despawnEffect: none

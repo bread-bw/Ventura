@@ -5,22 +5,16 @@ hasLiquids: false
 size: 2
 itemCapacity: 15
 tier: 1
-drillTime: 325
+drillTime: 345
 drawMineItem: true
-liquidBoostIntensity: 0.25
+alwaysUnlocked: true
 requirements: [
   01a-01-item-resnium/5
 ]
 category: production
 research: {
-  parent: 04d-01-core-xenox
-  objectives: [
-    {
-    type: OnSector
-    preset: pioneer
-    }
+  parent: 04d-01-core-xenon
+  requirements: [
+    01a-01-item-resnium/30
   ]
 }
-researchCost: [
-    01a-01-item-resnium/30
-]

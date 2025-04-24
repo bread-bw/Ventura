@@ -1,7 +1,13 @@
 name: ventura
 displayName:Ventura
 author: Bread
-description:A mindustry mod
+description:
+'''
+A new planet... 
+New oppotunity... 
+Regain control of this unknown and far away planet... 
+And retrive peace...
+'''
 version: Alpha 1.0
 minGameVersion: 146
 hidden: false
