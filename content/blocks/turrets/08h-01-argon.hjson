@@ -1,16 +1,24 @@
 type: ItemTurret
+health: 55
 name: Argon
 description: Melts down metalic materials into a highly accurate molten bolts to damage enemies.
-reload: 45
+reload: 75
 size: 1
 squareSprite: false
-inaccuracy: 4
+inaccuracy: 7
 range: 145
+shoot: {
+  shots: 3
+  shotDelay: 7
+  spread: 10
+}
 ammoTypes: {
     01a-01-item-resnium: {
-    bulletType: LaserBulletType
+    type: LaserBulletType
     length: 145
     width: 7.5
+    damage: 15
+    colors: [3e3640,7f7980,bfbfbf]
     }
 }
 category: turret
