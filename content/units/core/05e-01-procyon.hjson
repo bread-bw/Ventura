@@ -41,13 +41,13 @@ weapons: [
       type: ContinuousFlameBulletType
       colors: [d46f6b, e48581, ffbe7f, e49e81, ffffff]
       length: 95
-      width: 1
+      width: 2
       drawFlare: false
-      damageInterval: 34
-      damage: 22
+      damageInterval: 45
+      damage: 33
       buildingDamageMultiplier: 0.01
       pierceArmor: false
-      pierceCap: 2
+      pierceCap: 3
       hitEffect: none
       despawnEffect: none
     }
