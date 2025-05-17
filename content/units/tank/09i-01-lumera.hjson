@@ -31,17 +31,19 @@ weapons: [
     shoot: {
       type: ShootSpread
       shots: 4
-      spread: 4
+      spread: 2
     }
 	shootSound: shoot-big
     bullet: {
       type: BasicBulletType
       speed: 4
-	  lifetime: 35
-	  height: 5
+	    lifetime: 35
+	    height: 5
       width: 5
       damage: 16
-	}
+	     splashDamage: 8
+      splashDamageRadius: 5
+    }
   }
 ]
 research: 11k-01-tank-assembly-plant
