@@ -42,9 +42,7 @@ weapons: [
       type: BasicBulletType
       speed: 4
 	  lifetime: 45
-	  damage: 12
-      splashDamage: 34
-	  splashDamageRadius: 22
+	  damage: 11
 	  width: 6
       height: 6
     }
