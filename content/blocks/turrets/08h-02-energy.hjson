@@ -1,0 +1,73 @@
+type: ItemTurret
+health: 125
+name: Energy
+description: Will rekt someone, do not try passing blud.
+reload: 7
+size: 2
+squareSprite: false
+inaccuracy: 5
+range: 273
+shoot: {
+  type: ShootAlternate
+  spread: 3
+  shotDelay: 5
+}
+recoils: 2
+drawer: {
+  type: DrawTurret
+  basePrefix: vroom-
+  parts: [
+      {
+        type: RegionPart
+        suffix: -barrel-l
+        mirror: false
+        under: false
+        progress: recoil
+        moveY: -1.5
+        recoilIndex: 0
+      }    
+      {
+        type: RegionPart
+        suffix: -barrel-r
+        mirror: false
+        under: false
+        progress: recoil
+        moveY: -1.5
+        recoilIndex: 1
+      }  
+   ]
+}
+ammoTypes: {
+    01a-01-item-resnium: {
+    type: BasicBulletType
+    height: 7
+    width: 7
+    lifetime: 90
+	speed: 3
+    damage: 28
+    splashDamage: 8
+	splashDamageRadius: 6
+	}
+    01a-03-item-irimuth: {
+    type: BasicBulletType
+    height: 7
+    width: 7
+    lifetime: 90
+	speed: 3
+	damage: 33
+    splashDamage: 12
+	splashDamageRadius: 6
+	}
+}
+category: turret
+research: {
+  parent: 08h-01-argon
+  requirements: [
+    01a-01-item-resnium/195
+	01a-03-item-irimuth/100
+  ]
+}
+requirements: [
+  01a-01-item-resnium/115
+  01a-03-item-irimuth/75
+]
